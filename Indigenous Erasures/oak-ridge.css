@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Black.ttf') format('truetype');
+    font-weight: 900; /* A high number like 900 is typically used for black or heavy fonts */
+    font-style: normal;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Assuming you have Poppins font set up */
+    background-color: #f7f4e6; /* Light cream background */
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.top-section, .analysis-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.top-section > div, .analysis-section > p {
+    flex: 1; /* Each child takes equal width */
+    margin: 0 10px; /* Spacing between sections */
+    text-align: center; /* Center text */
+}
+
+.image img {
+    max-width: 100%; /* Ensures the image is responsive and doesn't overflow */
+    margin-top: 65px;
+    height: auto;
+}
+
+/* You might want to add more specific styles to fine-tune the layout and appearance */
