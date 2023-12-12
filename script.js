@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
         [-9.6457, 160.1562], // Solomon Islands
         [34.5199, -105.8701], // New Mexico
         [34.0489, -111.0937], // Arizona
-        [66.0833, -119.3333]  // Port Radium, Canada
+        [66.0833, -119.3333],  // Port Radium, Canada
+        [7.1315, 171.1845] // Marshall Islands
     ]);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -28,4 +29,5 @@ document.addEventListener('DOMContentLoaded', function() {
     addMarker(34.5199, -105.8701, 'New Mexico', 'new-mexico.html');
     addMarker(34.0489, -111.0937, 'Arizona', 'arizona.html');
     addMarker(66.0833, -119.3333, 'Port Radium', 'port-radium.html');
+    addMarker(7.1315, 171.1845, 'Marshall Islands', 'marshall-islands.html');
 });
