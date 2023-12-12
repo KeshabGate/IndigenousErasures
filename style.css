@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Black.ttf') format('truetype');
+    font-weight: 900; /* A high number like 900 is typically used for black or heavy fonts */
+    font-style: normal;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f4e6; /* Light cream color */
+}
+
+strong, .bold-text {
+    font-weight: bold; /* This will use Poppins-Bold.ttf */
+}
+
+em, .italic-text {
+    font-style: italic; /* This will use Poppins-Italic.ttf */
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900; /* This should match the font-weight in your @font-face declaration */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f4e6; /* Slightly darker cream for the header */
+}
+
+#map {
+    height: 500px; /* Set the height of the map */
+    margin-top: 20px; /* Space between the text and the map */
+}
